@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/dtl3koz.css">
+
+    </head>
+    <body>
+
+        <header>
+            <img class="logo" src="fotos/space-x.svg" alt="">
+        </header>
+
+        <main>
+            <div class="grid">
+
+                <div class="item afstand">
+                    <div class="item-header">
+                        <h2 class="item-title">Afstand</h2>
+                    </div>
+                    <div class="item-body">
+                        <div class="process-bar">
+                            <div class="inner-bar"></div>
+                        </div>
+                        <div class="process-labels">
+                            <span>Aarde</span>
+                            <span class="label-midden">57%</span>
+                            <span>Mars</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item snelheid">
+                    <div class="item-header">
+                        <h2 class="item-title">Snelheid</h2>
+                    </div>
+                    <div class="item-body">
+                        <canvas id="snelheid"></canvas>
+                    </div>
+                </div>
+
+                <div class="item dranken">
+                    <div class="item-header">
+                        <h2 class="item-title">Dranken voorraad</h2>
+                    </div>
+                    <div class="item-body">
+                        <canvas id="dranken"></canvas>
+                    </div>
+                </div>
+
+                <div class="item voedsel">
+                    <div class="item-header">
+                        <h2 class="item-title">Voedsel voorraad</h2>
+                    </div>
+                    <div class="item-body">
+                        <canvas id="voedsel"></canvas>
+                    </div>
+                </div>
+
+                <div class="item reizigers">
+                    <div class="item-header">
+                        <h2 class="item-title">Reizigers</h2>
+                    </div>
+                    <div class="item-body">
+                        <canvas id="reizigers"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
